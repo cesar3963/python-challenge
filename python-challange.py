@@ -1,10 +1,12 @@
 import csv
 
-with open('pythong_challenge', 'pybank', 'budget_data.csv', 'r')as csvfile:
+with open('budget_data.csv', 'r')as budget:
 
-    csv_reader = csv.reader(csvfile, delimiter=',')
-    print(csvreader)
+    csv_reader = csv.reader(budget)
+    print(csv_reader)
+       
+    for row in csv_reader:
+        profits = sum("Profit/Losses")
 
-    for row in csvreader:
-        print(row)
-
+        print(profits)
+    
