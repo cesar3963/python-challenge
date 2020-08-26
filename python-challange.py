@@ -1,9 +1,8 @@
-import os
-csvpath = os.path.join('C:\Users\cesar\Documents\GitHub\python-challenge\PyBank\budget_data.csv')
+import csv
 
-with open(csvpath, newline='')as csvfile:
+with open('pythong_challenge', 'pybank', 'budget_data.csv', 'r')as csvfile:
 
-    csvreader = csv.reader(csvfile, delimiter=',')
+    csv_reader = csv.reader(csvfile, delimiter=',')
     print(csvreader)
 
     for row in csvreader:
