@@ -1,12 +1,11 @@
 import csv
+import os
+csvpath = os.path.join("budget_data.csv')
 
-with open('budget_data.csv', 'r')as budget:
+   
+open(csvpath, newline='') as csvfile:
+csvreader =.csv.reader(csvfile, delimiter=',')
+print(csvreader)
 
-    csv_reader = csv.reader(budget)
-    print(csv_reader)
-       
-    for row in csv_reader:
-        profits = sum("Profit/Losses")
-
-        print(profits)
-    
+for row in csvreader:
+    print(row)
