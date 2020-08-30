@@ -1,10 +1,6 @@
 import csv
 import os
 
-    csvpath = os.path.join('python-challenge','budget_data.csv')
    
-with open(csvpath, newline='') as csvfile:
-    csvreader = csv.reader(csvpath, delimiter=',')
-    date = 0
-    for row in csvreader:
-        print(', '.join(row))
+with open('budget_data.csv', newline='') as csvfile:
+   'budget_data.csv' = csv.reader('budget_data.csv', delimiter=',')
