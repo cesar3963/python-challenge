@@ -2,7 +2,7 @@ import os
 import csv
 
 
-csvpath = os.path.joim("csv", "budget_data.csv")
+csvpath = os.path.joim("..","csv", "budget_data.csv")
 
 
 with open(csvpath) as csvfile:
