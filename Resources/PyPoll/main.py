@@ -2,7 +2,7 @@ import os, csv
 
 
 # Assign file location with the pathlib library
-csv_file_path = os.path.join("PyPoll", "election_data.csv")
+csv_file_path = os.path.join("..","PyPoll", "election_data.csv")
 
 # Declare Variables 
 total_votes = 0 
@@ -67,7 +67,7 @@ print(f"----------------------------")
 
 # Output files
 # Assign output file location and with the pathlib library
-output_file = os.path.join( "PyPoll", "Election_Results_Summary.txt")
+output_file = os.path.join("..", "analysis", "Election_Results_Summary.txt")
 
 with open(output_file,"w") as file:
 
