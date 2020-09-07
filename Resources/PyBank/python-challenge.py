@@ -2,7 +2,7 @@ import os
 import csv
 
 
-csvpath = os.path.join('..','PyBank', 'budget_data.csv')
+csvpath = os.path.join('budget_data.csv')
 
 # Create empty lists to iterate through specific rows for the following variables
 total_months = []
